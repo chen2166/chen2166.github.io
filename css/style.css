@@ -97,8 +97,8 @@ a.link:hover::before {
 }
 
 .space-md {
-    padding-top: 90px;
-    padding-bottom: 90px
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 #preloader {
@@ -169,7 +169,7 @@ a.link:hover::before {
 ///////////////////////*/
 
 .container {
-    max-width: 1440px
+    max-width: 1900px
 }
 
 
@@ -202,7 +202,7 @@ Header intro
 
 .headline {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     margin-top: 50px;
 }
 
@@ -213,7 +213,7 @@ Header intro
 
 .headline-content .headline-title {
     font-weight: 400;
-    font-size: 50px
+    font-size: 36px
 }
 
 .headline-subtitle {
@@ -393,4 +393,27 @@ Header intro
     background-color: #fff;
     border: 1px solid #e9ecef;
     border-radius: 0;
+}
+
+.youtube-container {
+    overflow: hidden;
+    width: 30%;
+    /* Keep it the right aspect-ratio */
+    aspect-ratio: 9/16;
+    /* No clicking/hover effects */
+    /* pointer-events: none; */
+
+}
+
+.youtube-container iframe {
+    /* Extend it beyond the viewport... */
+    width: 300%;
+    height: 100%;
+    /* ...and bring it back again */
+    margin-left: -100%;
+}
+
+
+#totop {
+  padding-top: 0px
 }

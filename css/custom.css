@@ -3,3 +3,18 @@
 Your custom css here
 
 /////////////////////////////////////////*/
+
+#projectmain {
+  height: 800px
+}
+
+#videoontop{
+  z-index=9;
+
+}
+
+video {
+  /* override other styles to make responsive */
+  width: 50%    !important;
+  height: auto   !important;
+}
