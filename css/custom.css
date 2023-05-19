@@ -9,7 +9,7 @@ Your custom css here
 }
 
 #videoontop{
-  z-index=9;
+  /* z-index=9; */
 
 }
 
@@ -17,4 +17,36 @@ video {
   /* override other styles to make responsive */
   width: 50%    !important;
   height: auto   !important;
+}
+
+
+.tobo{
+  margin: 0;
+    position: absolute;
+    top: 30%;
+}
+
+#totop {
+  padding-top: 0px
+}
+
+
+#intro{
+  font-family: 'Raleway', sans-serif;
+  font-size:40px;
+}
+
+#srname{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300
+}
+
+#navitems{
+  font-size:18px;
+}
+
+
+.space-mdmd {
+    padding-top: 100px;
+    padding-bottom: 50px;
 }

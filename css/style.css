@@ -97,7 +97,7 @@ a.link:hover::before {
 }
 
 .space-md {
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -169,7 +169,7 @@ a.link:hover::before {
 ///////////////////////*/
 
 .container {
-    max-width: 1900px
+    max-width: 2400px
 }
 
 
@@ -188,8 +188,8 @@ Navigation
     padding-top: .3125rem;
     padding-bottom: .3125rem;
     margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
+    font-size: 2.5rem;
+    line-height: 10rem;
     white-space: nowrap;
     font-weight: 600;
     text-transform: capitalize;
@@ -203,7 +203,7 @@ Header intro
 .headline {
     position: relative;
     margin-bottom: 100px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .headline-content {
@@ -411,9 +411,4 @@ Header intro
     height: 100%;
     /* ...and bring it back again */
     margin-left: -100%;
-}
-
-
-#totop {
-  padding-top: 0px
 }
